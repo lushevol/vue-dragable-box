@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-    import drag from 'vue-power-drag';
+    import drag from 'vue-dragable-box';
     import mock from "mockjs"
     import _ from "lodash";
 

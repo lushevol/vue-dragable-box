@@ -585,7 +585,7 @@ function findBelowItems(item) {
 }
 
 export default {
-    name: 'vue-power-drag',
+    name: 'vue-dragable-box',
     props: {
         yourList: {
             required: true,

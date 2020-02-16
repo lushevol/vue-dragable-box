@@ -1,5 +1,5 @@
 {
-  "name": "vue-power-drag",
+  "name": "vue-dragable-box",
   "version": "0.1.5",
   "description": "A layout component like gridster",
   "author": "cy",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiongcaihu/vue-power-drag.git"
+    "url": "https://github.com/lushevol/vue-dragable-box.git"
   },
   "main": "drag.vue",
   "dependencies": {
@@ -91,7 +91,6 @@
     "tween.js": "^16.6.0",
     "url-loader": "^0.5.7",
     "vue-loader": "^11.0.0",
-    "vue-power-drag": "^0.2.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.1.10",
     "webpack": "^2.2.1",

@@ -9,10 +9,10 @@
 
 <body>
     <div id="app">
-        <vue-power-drag ref="drags" :your-list="list">
+        <vue-dragable-box ref="drags" :your-list="list">
             <template v-for="(item,index) in list" :slot="'slot'+index">
             </template>
-        </vue-power-drag>
+        </vue-dragable-box>
     </div>
 </body>
 <script src="./js/jquery.js"></script> <!--在这里引入依赖的js-->

@@ -1,6 +1,6 @@
 (function () {
-    Vue.component('vue-power-drag', {
-        name: 'vue-power-drag',
+    Vue.component('vue-dragable-box', {
+        name: 'vue-dragable-box',
         template: `<div class='dragAndResize' ref='container' @mousedown="containerMouseDown($event)" @mouseup="endMove($event)" @mousemove="moving($event)">
                 <div v-if="renderOk">
                     <div v-if="item.sizex!=undefined" :class="{item:true,moveAnimation:moveAnimate,movingItem:item.isPlayer,canNotDrag:!draggable}" @mousedown="startMove($event,item,index)" :ref="'item'+index" v-for="(item,index) in yourList"
