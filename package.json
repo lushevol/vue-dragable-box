@@ -1,8 +1,8 @@
 {
   "name": "vue-dragable-box",
-  "version": "0.1.5.1",
+  "version": "0.1.7",
   "description": "A layout component like gridster",
-  "author": "cy",
+  "author": "lushevol",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
